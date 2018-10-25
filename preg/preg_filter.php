@@ -21,9 +21,9 @@ var_dump($res);
 
 //  php.net 上的示例代码解析:
 
-$subject = array('1', 'a', '2', 'b', '3', 'A', 'B', '4');
-$pattern = array('/\d/', '/[a-z]/', '/[1a]/');
-$replace = array('A:$0', 'B:$0', 'C:$0');
+$subject = array('1', 'a', '2', 'b', '3', 'A', 'B', '4');   // 要处理的数组
+$pattern = array('/\d/', '/[a-z]/', '/[1a]/');  // 正则数组，和replace 参数同步
+$replace = array('A:$0', 'B:$0', 'C:$0'); // 匹配到后替换的数值
 
 echo "preg_filter returns\n";
 print_r(preg_filter($pattern, $replace, $subject));

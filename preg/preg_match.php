@@ -10,7 +10,7 @@ EOT;
 $reg = '/([0-9]{1,3}\.{1}){3}[0-9]{1}/m';
 $res = preg_match($reg,$str);
 var_dump(boolval($res));    //  bool(true)  -> 匹配的结果
-$res = preg_match($reg,$str,$arr);
+$res = preg_match($reg,$str,$arr); // $arr 为匹配的结果
 var_dump($arr);
 /*
  *

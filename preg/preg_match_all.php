@@ -8,7 +8,7 @@ sdef125.116.52.3sdsds
 48554dsad45848dsd4saa8
 EOT;
 $reg = '/([0-9]{1,3}\.{1}){3}[0-9]{1}/';
-$res = preg_match_all($reg,$str,$arr);
+$res = preg_match_all($reg,$str,$arr);  // $arr 为匹配结果
 var_dump($arr);
 /*
     * array(2) {
