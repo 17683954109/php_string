@@ -23,7 +23,7 @@ var_dump($res);
 
 $subject = array('1', 'a', '2', 'b', '3', 'A', 'B', '4');   // 要处理的数组
 $pattern = array('/\d/', '/[a-z]/', '/[1a]/');  // 正则数组，和replace 参数同步
-$replace = array('A:$0', 'B:$0', 'C:$0'); // 匹配到后替换的数值
+$replace = array('A:$0', 'B:$0', 'C:$0'); // 匹配到后替换的数值, $0 表示匹配结果的第 0 条, A: 等是普通字符串
 
 echo "preg_filter returns\n";
 print_r(preg_filter($pattern, $replace, $subject));
