@@ -1,6 +1,6 @@
 <?php
 
-// preg_match_all 函数
+// preg_match_all 函数 : 对字符串匹配所有
 
 $str = <<<EOT
 dsdad127.0.0.1dfsdadads

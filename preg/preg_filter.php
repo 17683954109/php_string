@@ -1,6 +1,6 @@
 <?php
 
-// preg_filter 函数
+// preg_filter 函数 : 搜索和替换
 
 $str = <<<EOT
 dsdad127.0.0.1dfsdadads

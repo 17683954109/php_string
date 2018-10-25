@@ -1,6 +1,6 @@
 <?php
 
-// preg_match 函数
+// preg_match 函数 : 对字符串进行一次匹配
 
 $str = <<<EOT
 dsdad127.0.0.1dfsdadads
