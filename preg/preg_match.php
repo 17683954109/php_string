@@ -1,4 +1,7 @@
 <?php
+
+// preg_match 函数
+
 $str = <<<EOT
 dsdad127.0.0.1dfsdadads
 sdef125.116.52.3sdsds
